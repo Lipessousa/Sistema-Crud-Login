@@ -13,7 +13,7 @@ Projeto com tela de login e CRUD, na qual a partir do momento que você cadastra
 Obs: O varchar do email e senha na tabela de usuários no banco tem que ser de 200(por conta da criptografia de senha)
 
 ## ✅ Demonstração
-<img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/tela_cadastro.PNG" />
+<img src="https://github.com/Lipessousa/Sistema-Crud-Login/blob/main/images/tela_cadastro.PNG" />
 <img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/tela_login.PNG" />
 <img src="https://github.com/Lipessousa/Sistema-Crud-Login/blob/main/images/print_crud_front.PNG" />
 <img src="https://github.com/Lipessousa/Sistema-Crud-Login/blob/main/images/crud_front_eidt.PNG" />
