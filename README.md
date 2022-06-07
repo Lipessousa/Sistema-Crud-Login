@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/favicon.png" alt="logo" height="200"/>
+  <img src="https://github.com/Lipessousa/Sistema-Crud-Login/blob/main/images/MetaGAMES.png" alt="logo" height="200"/>
 </h4>
 
 <h1 align="center">
