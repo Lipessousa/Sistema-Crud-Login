@@ -16,7 +16,7 @@ Obs: O varchar do email e senha na tabela de usuários no banco tem que ser de 2
 <img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/tela_cadastro.PNG" />
 <img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/tela_login.PNG" />
 <img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/print_crud_front.PNG" />
-<img src="https://github.com/Lipessousa/tela_login_crud_reactjs_mysql/blob/main/images/crud_front_eidt.PNG" />
+<img src="https://github.com/Lipessousa/Sistema-Crud-Login/blob/main/images/crud_front_eidt.PNG" />
 
 ## ⚙ Pré-requisitos
 
