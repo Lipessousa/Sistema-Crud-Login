@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0; /* pra remover as margens geradas pelo browser*/
+}
+
+
+.container-login {
+  background-image: linear-gradient(to right, rgb(20, 147, 220) 35%, whitesmoke 30%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.left-login{
+  /* border: 2px solid black; */
+  font-size: 30px;
+  width: 40%;
+  margin-right: 5%;  /* teste */ 
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.left-login h1 {
+  /* border: 1px solid black;  */
+  color: white;
+}
+
+.right-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login{
+  color: black;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+}
+
+.user-links{
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+
+a{
+  color: black;
+}
+
+
+.form-group{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.form-field{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.form-group label{
+  margin-left: 2%;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+.form-error {
+  display: block;
+  color: rgb(180, 20, 20);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.form-field ::placeholder{
+  color: #f0ffff94;
+}
+
+.button{
+  width: 50%;
+  padding: 16px 0px;
+  margin: 0 auto;
+  margin-top: 4%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-image: linear-gradient(to right,rgb(20, 147, 220), rgb(17, 54, 71));
+  box-shadow: 4px 6px 14px rgb(0 0 0 / 20%);
+  font-size: 25px;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* CSS da primeira versão*/
+
+.links{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.icon{
+  width: 8%;
+  height: 8%;
+}
+
+.logo{
+  border-radius: 75%;
+  width: 150px;
+  height: 150px;
+}
+
+@media (min-width: 2000px){      /* aumenta o tamanho  da logo*/
+  .logo{
+    width: 25%;
+    height: 25%;
+  }
+}
+
+
+@media (max-width: 1080px ){    /*diminui taanho da fonte do left-login*/
+    .left-login h1{
+      font-size: 40px;
+    }
+} 
+
+@media (min-width: 1080px ) and (max-width: 1275px){    /*diminui taanho da fonte do left-login*/
+  .left-login h1{
+    font-size: 50px;
+  }
+}
+
+
+/* responsividade */
+
+@media (max-width: 280px){
+  .left-login h1{
+    font-size: 30px;
+  }
+
+  .card-login{
+    margin-top: 10%;
+  }
+
+  .logo{
+    margin-top: 10%;
+  }
+
+  .user-links{
+    padding-top: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+  }
+
+
+}
+
+@media (max-width: 756px){
+  .container-login {
+    background-image: linear-gradient(to bottom rgb(20, 147, 220) 15%,whitesmoke 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .left-login{ 
+    width: 100%; 
+   }
+   
+
+  /* parte de login*/
+
+  .right-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-login{
+    margin-bottom: 90%;
+    color: black;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+  }
+  
+  .form-group{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+   
+  /* CSS da primeira versão*/
+  
+  .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+   
+  .logo{
+    margin-top: 6%;
+    width: 20%;
+    height: 20%;
+  } 
+
+  .user-links{
+    padding-top: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+}
