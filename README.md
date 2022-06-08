@@ -58,4 +58,4 @@ Server
 
 <hr/>
 
-Feito Por Felipe Sousa.
+Feito Por Felipe Sousa, Guilherme Morais, Amanda Ribeiro e Hugo Nunes
