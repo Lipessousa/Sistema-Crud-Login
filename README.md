@@ -10,7 +10,7 @@
 
 Projeto com tela de login e CRUD, na qual a partir do momento que você cadastra seu usuario, esses dados são direcionados para o banco de dados (MySQL), dando acesso ao CRUD. Obejetivo do CRUD é cadastrar, editar e deletar dados que também são direcionados a um segundo banco de dados. Projeto feito com fins educativos. 
 
-Obs: O varchar do email e senha na tabela de usuários no banco tem que ser de 200(por conta da criptografia de senha);
+OBS: ao criar a tabela de usuarios no banco, o campo de password deve ter um VARCHAR de 200(por conta da criptografia de senha)
      Colocar a CDN do bootstrap 5.0 no index.html (CSS e JavaScript)
 
 ## ✅ Demonstração
